@@ -1,11 +1,11 @@
 {
-  "name": "static",
+  "name": "csb-h5c8m",
   "version": "1.0.0",
   "description": "This is a static template with no bundling",
   "main": "index.html",
   "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "now-start": "cd ./ && serve -s ./",
+    "start": "serve"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,7 @@
   "bugs": {
     "url": "https://github.com/codesandbox-app/static-template/issues"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
-    "serve": "^11.2.0"
+    "serve": "^10.1.1"
   }
 }
